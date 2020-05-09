@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Kodi
+Exec=/usr/bin/kodi
+Icon=/usr/share/kodi/media/icon80x80.png
+Comment=Autostart Kodi
+X-GNOME-Autostart-enabled=true

@@ -1,0 +1,18 @@
+{
+	"type": 0,
+	"index": 0,
+	"class": "profile-audio",
+	"enabled": true,
+	"default": false,
+	"name": "audio",
+	"comment": "Audio-only stream",
+	"priority": 3,
+	"fpriority": 0,
+	"timeout": 0,
+	"restart": false,
+	"contaccess": true,
+	"catimeout": 2000,
+	"swservice": true,
+	"svfilter": 0,
+	"shield": true
+}

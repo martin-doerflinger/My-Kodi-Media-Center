@@ -1,0 +1,21 @@
+{
+	"enabled": false,
+	"maptoch": true,
+	"mapopt": [
+		"mapradio",
+		"encrypted"
+	],
+	"chtag": [
+		"bouquet_tag"
+	],
+	"chtag_ref": "",
+	"name": "M7 Group",
+	"ssl_peer_verify": false,
+	"ext_url_period": 60,
+	"source": "dvb-bouquet://dvbs,19.2E,0451,3622",
+	"services": {
+	},
+	"services_seen": 1,
+	"comment": "12515.25H in DVB-S Network",
+	"lcn_off": 0
+}

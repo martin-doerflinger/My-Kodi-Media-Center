@@ -1,0 +1,18 @@
+{
+	"enabled": true,
+	"number": 0,
+	"epgauto": true,
+	"epglimit": 0,
+	"dvr_pre_time": 0,
+	"dvr_pst_time": 0,
+	"epg_running": -1,
+	"services": [
+		"3d568c84edbd7cc0455722c959ba89f0"
+	],
+	"tags": [
+		"ffb2d66d053c18cf08d3960fa1da7000",
+		"8c671f2f43450d6ebd04e247b59feb55",
+		"fcbf1aea1d27f6209898a7b2376c00f2"
+	],
+	"bouquet": ""
+}

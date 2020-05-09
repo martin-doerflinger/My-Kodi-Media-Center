@@ -1,0 +1,13 @@
+[Unit]
+Description=Starts Tvheadend Server in Background
+After=syslog.target network.target
+
+[Service]
+Type=forking
+ExecStartPre=/sbin/modprobe -v cx23885 si2157 si2168 && sleep 4
+ExecStart=/etc/init.d/tvheadend start
+ExecReload=/etc/init.d/tvheadend restart
+ExecStop=/etc/init.d/tvheadend stop
+
+[Install]
+WantedBy=multi-user.target

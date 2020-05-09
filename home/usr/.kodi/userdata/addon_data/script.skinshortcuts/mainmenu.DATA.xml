@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<shortcuts>
+	<shortcut>
+		<defaultID>livetv</defaultID>
+		<label>$SKIN[31015|skin.eminence.2|Live TV]</label>
+		<label2>Common Shortcut</label2>
+		<icon>special://skin/extras/icons/livetv.png</icon>
+		<thumb />
+		<action>ActivateWindow(TVChannels)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>movies</defaultID>
+		<label>Video</label>
+		<label2>Hub 1101</label2>
+		<icon>special://skin/extras/icons/film.png</icon>
+		<thumb />
+		<action>ActivateWindow(1101)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>music</defaultID>
+		<label>2</label>
+		<label2>Common Shortcut</label2>
+		<icon>special://skin/extras/icons/songs.png</icon>
+		<thumb />
+		<action>ActivateWindow(Music)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>pictures</defaultID>
+		<label>1</label>
+		<label2>Common Shortcut</label2>
+		<icon>special://skin/extras/icons/pictures.png</icon>
+		<thumb />
+		<action>ActivateWindow(Pictures)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Play DVD/BD</label>
+		<label2>Benutzerdefinierte Einträge</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/sets.png</thumb>
+		<action>PlayDVD</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Netflix</label>
+		<label2>Benutzerdefinierte Einträge</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/netflix.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.netflix",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Amazon Prime Video</label>
+		<label2>Benutzerdefinierte Einträge</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/prime_video.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.amazon-test",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Disney+</label>
+		<label2>Benutzerdefinierte Einträge</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/disneyplus.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://slyguy.disney.plus",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>YouTube</label>
+		<label2>Benutzerdefinierte Einträge</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/youtube.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.youtube",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Spotify</label>
+		<label2>Benutzerdefinierte Einträge</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/spotify.png</thumb>
+		<action>ActivateWindow(Music,"plugin://plugin.audio.spotify",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Spiele</label>
+		<label2>Benutzerdefinierte Einträge</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/games.png</thumb>
+		<action>Spiele</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>programs</defaultID>
+		<label>0</label>
+		<label2>Benutzerdefinierte Einträge</label2>
+		<icon>special://skin/extras/icons/addons.png</icon>
+		<thumb />
+		<action>ActivateWindow(Programs,Addons,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>weather</defaultID>
+		<label>8</label>
+		<label2>Common Shortcut</label2>
+		<icon>special://skin/extras/icons/sun.png</icon>
+		<thumb />
+		<action>ActivateWindow(Weather)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>settings</defaultID>
+		<label>10004</label>
+		<label2>Common Shortcut</label2>
+		<icon>special://skin/extras/icons/settings.png</icon>
+		<thumb />
+		<action>ActivateWindow(Settings)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>power</defaultID>
+		<label>33060</label>
+		<label2>Common Shortcut</label2>
+		<icon>special://skin/extras/icons/power.png</icon>
+		<thumb />
+		<action>ActivateWindow(shutdownmenu)</action>
+	</shortcut>
+</shortcuts>

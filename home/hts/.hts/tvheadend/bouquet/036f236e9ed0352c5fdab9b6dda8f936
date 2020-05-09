@@ -1,0 +1,21 @@
+{
+	"enabled": false,
+	"maptoch": true,
+	"mapopt": [
+		"mapradio",
+		"encrypted"
+	],
+	"chtag": [
+		"bouquet_tag"
+	],
+	"chtag_ref": "",
+	"name": "freenet TV",
+	"ssl_peer_verify": false,
+	"ext_url_period": 60,
+	"source": "dvb-bouquet://dvbs,19.2E,0459,201A",
+	"services": {
+	},
+	"services_seen": 130,
+	"comment": "12633.25H in DVB-S Network",
+	"lcn_off": 0
+}
