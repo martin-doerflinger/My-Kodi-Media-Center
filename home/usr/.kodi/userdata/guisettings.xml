@@ -29,7 +29,7 @@
     <setting id="audiooutput.streamsilence" default="true">1</setting>
     <setting id="audiooutput.truehdpassthrough" default="true">false</setting>
     <setting id="audiooutput.volumesteps" default="true">90</setting>
-    <setting id="bluray.playerregion">2</setting>
+    <setting id="bluray.playerregion" default="true">1</setting>
     <setting id="cache.harddisk" default="true">256</setting>
     <setting id="cacheaudio.dvdrom" default="true">256</setting>
     <setting id="cacheaudio.internet" default="true">256</setting>
@@ -46,7 +46,7 @@
     <setting id="debug.showloginfo" default="true">false</setting>
     <setting id="disc.playback" default="true">0</setting>
     <setting id="dvds.automenu" default="true">false</setting>
-    <setting id="dvds.autorun">true</setting>
+    <setting id="dvds.autorun" default="true">false</setting>
     <setting id="dvds.playerregion" default="true">0</setting>
     <setting id="epg.epgupdate" default="true">120</setting>
     <setting id="epg.futuredaystodisplay" default="true">3</setting>
@@ -77,7 +77,7 @@
     <setting id="input.enablemouse" default="true">true</setting>
     <setting id="input.rumblenotify" default="true">false</setting>
     <setting id="locale.activekeyboardlayout" default="true">English QWERTY</setting>
-    <setting id="locale.audiolanguage" default="true">mediadefault</setting>
+    <setting id="locale.audiolanguage">German</setting>
     <setting id="locale.charset" default="true">DEFAULT</setting>
     <setting id="locale.country">Deutschland</setting>
     <setting id="locale.keyboardlayouts">German QWERTZ</setting>
@@ -85,7 +85,7 @@
     <setting id="locale.longdateformat" default="true">regional</setting>
     <setting id="locale.shortdateformat" default="true">regional</setting>
     <setting id="locale.speedunit" default="true">regional</setting>
-    <setting id="locale.subtitlelanguage" default="true">original</setting>
+    <setting id="locale.subtitlelanguage">forced_only</setting>
     <setting id="locale.temperatureunit" default="true">regional</setting>
     <setting id="locale.timeformat" default="true">regional</setting>
     <setting id="locale.timezone" default="true">Europe/Berlin</setting>
@@ -99,7 +99,7 @@
     <setting id="lookandfeel.skintheme" default="true">SKINDEFAULT</setting>
     <setting id="lookandfeel.skinzoom" default="true">0</setting>
     <setting id="lookandfeel.soundskin" default="true">resource.uisounds.kodi</setting>
-    <setting id="lookandfeel.startupaction">1</setting>
+    <setting id="lookandfeel.startupaction" default="true">0</setting>
     <setting id="lookandfeel.startupwindow" default="true">10000</setting>
     <setting id="lookandfeel.stereostrength" default="true">5</setting>
     <setting id="masterlock.maxretries" default="true">3</setting>
@@ -208,7 +208,7 @@
     <setting id="services.airplayvideosupport" default="true">false</setting>
     <setting id="services.airplayvolumecontrol" default="true">true</setting>
     <setting id="services.devicename" default="true">Kodi</setting>
-    <setting id="services.deviceuuid">96fae0ad-df2a-47aa-aea7-48b73f2976ec</setting>
+    <setting id="services.deviceuuid">b160c6de-9276-4687-abd5-d449e1d754ff</setting>
     <setting id="services.esallinterfaces" default="true">false</setting>
     <setting id="services.escontinuousdelay" default="true">25</setting>
     <setting id="services.esenabled" default="true">true</setting>
@@ -216,7 +216,7 @@
     <setting id="services.esmaxclients" default="true">20</setting>
     <setting id="services.esport" default="true">9777</setting>
     <setting id="services.esportrange" default="true">10</setting>
-    <setting id="services.upnp">true</setting>
+    <setting id="services.upnp" default="true">false</setting>
     <setting id="services.upnpannounce" default="true">true</setting>
     <setting id="services.upnpcontroller" default="true">false</setting>
     <setting id="services.upnplookforexternalsubtitles" default="true">false</setting>
@@ -332,6 +332,60 @@
     <setting id="weather.currentlocation" default="true">1</setting>
     <setting id="window.height" default="true">480</setting>
     <setting id="window.width" default="true">720</setting>
+    <general>
+        <systemtotaluptime>13</systemtotaluptime>
+        <settinglevel>3</settinglevel>
+        <eventlog>
+            <level>0</level>
+            <showhigherlevels>true</showhigherlevels>
+        </eventlog>
+    </general>
+    <resolutions />
+    <defaultvideosettings>
+        <interlacemethod>1</interlacemethod>
+        <scalingmethod>1</scalingmethod>
+        <noisereduction>0.000000</noisereduction>
+        <postprocess>false</postprocess>
+        <sharpness>0.000000</sharpness>
+        <viewmode>0</viewmode>
+        <zoomamount>1.000000</zoomamount>
+        <pixelratio>1.000000</pixelratio>
+        <verticalshift>0.000000</verticalshift>
+        <volumeamplification>0.000000</volumeamplification>
+        <showsubtitles>true</showsubtitles>
+        <brightness>50.000000</brightness>
+        <contrast>50.000000</contrast>
+        <gamma>20.000000</gamma>
+        <audiodelay>0.000000</audiodelay>
+        <subtitledelay>0.000000</subtitledelay>
+        <nonlinstretch>false</nonlinstretch>
+        <stereomode>0</stereomode>
+        <centermixlevel>0</centermixlevel>
+    </defaultvideosettings>
+    <defaultaudiosettings />
+    <defaultgamesettings>
+        <videofilter></videofilter>
+        <stretchmode>normal</stretchmode>
+        <rotation>0</rotation>
+    </defaultgamesettings>
+    <mymusic>
+        <playlist>
+            <repeat>false</repeat>
+            <shuffle>false</shuffle>
+        </playlist>
+        <needsupdate>0</needsupdate>
+    </mymusic>
+    <myvideos>
+        <watchmodemovies>0</watchmodemovies>
+        <watchmodetvshows>0</watchmodetvshows>
+        <watchmodemusicvideos>0</watchmodemusicvideos>
+        <watchmoderecordings>0</watchmoderecordings>
+        <playlist>
+            <repeat>false</repeat>
+            <shuffle>false</shuffle>
+        </playlist>
+        <needsupdate>0</needsupdate>
+    </myvideos>
     <viewstates>
         <games>
             <viewmode>720896</viewmode>
@@ -436,60 +490,6 @@
             <sortattributes>0</sortattributes>
         </videonavyears>
     </viewstates>
-    <general>
-        <settinglevel>3</settinglevel>
-        <eventlog>
-            <level>0</level>
-            <showhigherlevels>true</showhigherlevels>
-        </eventlog>
-        <systemtotaluptime>53</systemtotaluptime>
-    </general>
-    <resolutions />
-    <defaultvideosettings>
-        <interlacemethod>1</interlacemethod>
-        <scalingmethod>1</scalingmethod>
-        <noisereduction>0.000000</noisereduction>
-        <postprocess>false</postprocess>
-        <sharpness>0.000000</sharpness>
-        <viewmode>0</viewmode>
-        <zoomamount>1.000000</zoomamount>
-        <pixelratio>1.000000</pixelratio>
-        <verticalshift>0.000000</verticalshift>
-        <volumeamplification>0.000000</volumeamplification>
-        <showsubtitles>true</showsubtitles>
-        <brightness>50.000000</brightness>
-        <contrast>50.000000</contrast>
-        <gamma>20.000000</gamma>
-        <audiodelay>0.000000</audiodelay>
-        <subtitledelay>0.000000</subtitledelay>
-        <nonlinstretch>false</nonlinstretch>
-        <stereomode>0</stereomode>
-        <centermixlevel>0</centermixlevel>
-    </defaultvideosettings>
-    <defaultaudiosettings />
-    <defaultgamesettings>
-        <videofilter></videofilter>
-        <stretchmode>normal</stretchmode>
-        <rotation>0</rotation>
-    </defaultgamesettings>
-    <mymusic>
-        <playlist>
-            <repeat>false</repeat>
-            <shuffle>false</shuffle>
-        </playlist>
-        <needsupdate>0</needsupdate>
-    </mymusic>
-    <myvideos>
-        <watchmodemovies>0</watchmodemovies>
-        <watchmodetvshows>0</watchmodetvshows>
-        <watchmodemusicvideos>0</watchmodemusicvideos>
-        <watchmoderecordings>0</watchmoderecordings>
-        <playlist>
-            <repeat>false</repeat>
-            <shuffle>false</shuffle>
-        </playlist>
-        <needsupdate>0</needsupdate>
-    </myvideos>
     <audio>
         <mute>false</mute>
         <fvolumelevel>1.000000</fvolumelevel>
