@@ -1,7 +1,7 @@
 #!/bin/bash
 
 kodi_verion=leia
-kodipath="/usr/share/kodi"
+kodipath="/media/hdd/.kodi"
 addonpath="$kodipath/addons"
 cdmpath="$kodipath/cdm"
 pkgpath="$addonpath/packages"
